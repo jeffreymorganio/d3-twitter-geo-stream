@@ -12,7 +12,7 @@ Watch the [D3 Twitter Geo Stream](https://www.youtube.com/watch?v=WDuwB4dchN8) v
 
 ## Running
 
-The D3 Twitter Geo Stream is an HTML page that should be served from a HTTP server. Two easy to use web servers are Python's built in web server and the Node.js [http-server](https://www.npmjs.com/package/http-server "View the http-server page on NPM") module.
+The D3 Twitter Geo Stream is an HTML page that should be served from an HTTP server. Two easy to use web servers are Python's built in web server and the Node.js [http-server](https://www.npmjs.com/package/http-server "View the http-server page on NPM") module.
 
 To run the Python web server, change to the directory containing the `d3-twitter-geo-stream` repository and issue the following command:
 
