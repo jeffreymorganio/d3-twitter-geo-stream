@@ -12,7 +12,7 @@ Watch the [D3 Twitter Geo Stream](https://www.youtube.com/watch?v=WDuwB4dchN8) v
 
 ## Running
 
-The D3 Twitter Geo Stream is an HTML page that should be served from an HTTP server. Two easy to use web servers are Python's built in web server and the Node.js [http-server](https://www.npmjs.com/package/http-server "View the http-server page on NPM") module.
+The D3 Twitter Geo Stream is an HTML page that should be served from an HTTP server. Two easy to use web servers are Python's built in HTTP server and the Node.js [http-server](https://www.npmjs.com/package/http-server "View the http-server page on NPM") module.
 
 To run the Python web server, change to the directory containing the `d3-twitter-geo-stream` repository and issue the following command:
 
@@ -23,7 +23,7 @@ python -m SimpleHTTPServer
 Or, to run `http-server`, change to the directory containing the `d3-twitter-geo-stream` repository and issue the following command:
 
 ```
-http-server
+http-server -p 8000
 ```
 
 If you don't have the `http-server` module installed, install it with the following command:
@@ -33,6 +33,14 @@ npm install http-server -g
 ```
 
 The `-g` command-line option installs the http-server globally to make it available from any directory.
+
+After running the HTTP server, visit the following URL in your web browser:
+
+```
+http://localhost:8000/
+```
+
+To visualize real-time geocoded data, you must also be running an instance of the Twitter Geo Server, which is described in the next section.
 
 ## The Geocoded Data Source
 
