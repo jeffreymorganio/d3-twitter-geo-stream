@@ -1,0 +1,25 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+svg {
+  border: 1px solid #aaa;
+}
+
+.land {
+  fill: #eee;
+}
+
+.boundary {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: .5px;
+}
+
+.point {
+  opacity: 0.3;
+}
+
+.radar-ping {
+  fill: none;
+}
