@@ -8,7 +8,7 @@ Each geocoded tweet is visualized as a point of longitude and latitude on the ma
 
 Watch the [D3 Twitter Geo Stream](https://www.youtube.com/watch?v=WDuwB4dchN8) video on YouTube.
 
-<img src="http://usabilityetc.com/assets/gallery/d3-twitter-geo-stream.png" alt="D3 Twitter Geo Stream" width="100%">
+<img src="http://usabilityetc.github.io/d3-twitter-geo-stream/d3-twitter-geo-stream.png" alt="D3 Twitter Geo Stream" width="100%">
 
 ## Running
 
