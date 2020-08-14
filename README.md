@@ -8,7 +8,7 @@ Each geocoded tweet is visualized as a point of longitude and latitude on the ma
 
 Watch the [D3 Twitter Geo Stream](https://www.youtube.com/watch?v=WDuwB4dchN8) video on YouTube.
 
-<img src="http://usabilityetc.github.io/d3-twitter-geo-stream/d3-twitter-geo-stream.png" alt="D3 Twitter Geo Stream" width="100%">
+<img src="http://jeffreymorganio.github.io/d3-twitter-geo-stream/d3-twitter-geo-stream.png" alt="D3 Twitter Geo Stream" width="100%">
 
 ## Running
 
@@ -44,7 +44,7 @@ To visualize real-time geocoded data, you must also be running an instance of th
 
 ## The Geocoded Data Source
 
-The D3 Twitter Geo Stream visualization connects to an instance of the [Twitter Geo Server](https://github.com/UsabilityEtc/twitter-geo-server-js) over a web socket. The port on which the Twitter Geo Server runs is configurable with a command-line parameter. This port is set in the D3 Twitter Geo Stream by the call to the `streamGeoDataOnPort` function in `index.html`. Here the Twitter Geo Server is running on port 5025:
+The D3 Twitter Geo Stream visualization connects to an instance of the [Twitter Geo Server](https://github.com/jeffreymorganio/twitter-geo-server-js) over a web socket. The port on which the Twitter Geo Server runs is configurable with a command-line parameter. This port is set in the D3 Twitter Geo Stream by the call to the `streamGeoDataOnPort` function in `index.html`. Here the Twitter Geo Server is running on port 5025:
 
 ```javascript
 <body onload="streamGeoDataOnPort(5025)">
